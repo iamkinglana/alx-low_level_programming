@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  *print_alphabet - print alphabet
  *Return: void
@@ -6,12 +7,11 @@
 
 void print_alphabet(void)
 {
-	char letter = 'a';
+	int j;
 
-	while (letter <= 'z')
+	for (j = 'a'; j <= 'z'; j++)
 	{
-		_putchar(letter);
-		letter++;
+		_putchar(j);
 	}
 	_putchar('\n');
 }
