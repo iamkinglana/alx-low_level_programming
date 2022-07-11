@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
  * main - generates keygen.
  * Return: 0 Always.
@@ -8,7 +9,7 @@
 int main(void)
 {
 	int c = 0;
-	int randomizer = 0;	
+	int randomizer = 0;
 	time_t t;
 
 	randomizer = rand()
